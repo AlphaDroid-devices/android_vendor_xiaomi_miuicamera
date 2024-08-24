@@ -3,10 +3,11 @@
 ### Cloning :
 - Clone this repo in vendor/xiaomi/miuicamera in your working directory by :
 ```
-git clone -b 13 https://github.com/garry-rogov/android_vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera
+git clone -b alpha-14 https://github.com/AlphaDroid-devices/vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera
 ```
 ### Changes Required :
-- You will need [these changes in your device tree.](https://github.com/garry-rogov/android_device_xiaomi_willow/commit/9af89ec21a1124429f9882c26b6cb87e03e3cb6f)
+- You will need these changes in your device tree.[1](https://github.com/AlphaDroid-devices/device_xiaomi_ginkgo/commit/3b3b5e4cff4e8f0e5cdbbb16f83aeaa9e25bfadc)
+- You will need these changes in your device tree.[2](https://github.com/AlphaDroid-devices/device_xiaomi_ginkgo/commit/778a4c5fef1f57a4a51a2e3ba12bec15ef32c98d)
 - Done, continue building your ROM as you do normally.
 
 ### For a portrait to work, add :
